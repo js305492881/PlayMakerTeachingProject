@@ -1,2 +1,8 @@
 # PlayMakerTeachingProject
 这是一个unity3D的playmaker的教学项目
+第一章
+第一节 介绍playmaker
+第二节 使用playmaker制作一个开门关门效果
+第三节 制作一个修改材质球的效果
+
+第二章 使用playmaker制作一个小的解密游戏

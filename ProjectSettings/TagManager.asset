@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - "\u5B50\u5F39"
+  - "\u7816\u5934"
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - "\u5B50\u5F39"
   - 
   - 
   - 

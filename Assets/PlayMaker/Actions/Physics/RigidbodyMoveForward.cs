@@ -4,22 +4,20 @@ namespace HutongGames.PlayMaker.Actions
 {
 
     [ActionCategory(ActionCategory.Physics)]
-    public class RigidbodyMove : FsmStateAction
+    public class RigidbodyMoveForward : FsmStateAction
     {
         [RequiredField]
         [CheckForComponent(typeof(Rigidbody))]
         [Tooltip("The GameObject to move.")]
         public FsmOwnerDefault gameObject;
 
-        [Tooltip("The movement vector.")]
-        public FsmVector3 moveVector;
+        [Tooltip("Axis values are in the range -1 to 1. Use the multiplier to set a larger range.")]
+        public FsmFloat multiplier;
 
-
-        public Rigidbody rigidbody;
+        private Rigidbody rigidbody;
         private GameObject go;
 
         // Code that runs on entering the state.
-
         public override void OnEnter()
         {
             go = Fsm.GetOwnerDefaultTarget(gameObject);
@@ -30,10 +28,10 @@ namespace HutongGames.PlayMaker.Actions
             }
         }
 
+        // Code that runs every frame.
         public override void OnUpdate()
         {
-            rigidbody.MovePosition(go.transform.position + moveVector.Value);
+            rigidbody.MovePosition(go.transform.position + go.transform.forward * multiplier.Value);
         }
-
     }
 }

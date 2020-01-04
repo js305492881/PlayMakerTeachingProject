@@ -6,6 +6,10 @@ TagManager:
   tags:
   - "\u5B50\u5F39"
   - "\u7816\u5934"
+  - "\u5766\u514B"
+  - "\u73A9\u5BB6\u5766\u514B"
+  - "\u654C\u4EBA\u5766\u514B"
+  - "\u654C\u4EBA\u7684\u5B50\u5F39"
   layers:
   - Default
   - TransparentFX
@@ -15,10 +19,10 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
   - "\u5B50\u5F39"
-  - "\u5766\u514B"
-  - 
+  - "\u73A9\u5BB6A"
+  - "\u654C\u4EBA\u7684\u5B50\u5F39"
+  - "\u654C\u4EBA\u7684\u5766\u514B"
   - 
   - 
   - 

@@ -3485,14 +3485,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5833659217070914281}
     m_Modifications:
-    - target: {fileID: 148586, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
-      propertyPath: m_Name
-      value: DustTrailLeft
-      objectReference: {fileID: 0}
-    - target: {fileID: 148586, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 496482, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.6
@@ -3537,6 +3529,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 148586, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
+      propertyPath: m_Name
+      value: DustTrailLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 148586, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 148586, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 19895962, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
       value: 3
@@ -3560,14 +3564,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5833659217070914283}
     m_Modifications:
-    - target: {fileID: 148586, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
-      propertyPath: m_Name
-      value: DustTrailRight
-      objectReference: {fileID: 0}
-    - target: {fileID: 148586, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 496482, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.6
@@ -3610,6 +3606,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 496482, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148586, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
+      propertyPath: m_Name
+      value: DustTrailRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 148586, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 148586, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 19895962, guid: f7167ad2844254441b40b8a300b4f1fe, type: 3}

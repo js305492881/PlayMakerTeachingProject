@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variables:
     floatVariables: []
-    intVariables: []
+    intVariables:
+    - useVariable: 1
+      name: "\u5F53\u524D\u51E0\u4E2A\u7535\u8111"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     boolVariables: []
     stringVariables: []
     vector2Variables: []
@@ -26,10 +32,23 @@ MonoBehaviour:
     objectVariables: []
     materialVariables: []
     textureVariables: []
-    arrayVariables: []
+    arrayVariables:
+    - useVariable: 1
+      name: "\u6240\u6709\u7684\u7535\u8111"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 3
+      objectTypeName: UnityEngine.GameObject
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 
+    variableCategoryIDs: 0000000000000000
   events:
   - "\u5F00\u706B"

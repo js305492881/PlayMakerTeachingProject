@@ -46,9 +46,22 @@ MonoBehaviour:
       stringValues: []
       vector4Values: []
       objectReferences: []
+    - useVariable: 1
+      name: "\u573A\u666F\u5185\u7684\u7535\u8111"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 3
+      objectTypeName: UnityEngine.GameObject
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000
+    variableCategoryIDs: 000000000000000000000000
   events:
   - "\u5F00\u706B"

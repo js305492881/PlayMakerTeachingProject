@@ -207,17 +207,13 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.DestroyComponent
-        - HutongGames.PlayMaker.Actions.DestroyComponent
         - HutongGames.PlayMaker.Actions.CreateObject
         customNames:
         - 
-        - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 000000000200000004000000
-        actionHashCodes: 9bd6f8019bd6f801bf83c900
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: bf83c900
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 0
@@ -238,42 +234,14 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: UnityEngine.Collider
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: UnityEngine.MeshRenderer
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -304,19 +272,15 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000140000001200000013000000130000001c0000001c00000013000000
+        paramDataType: 13000000130000001c0000001c00000013000000
         paramName:
-        - gameObject
-        - component
-        - gameObject
-        - component
         - gameObject
         - spawnPoint
         - position
         - rotation
         - storeObject
-        paramDataPos: 000000000000000001000000010000000000000001000000000000000100000002000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000
+        paramDataPos: 0000000001000000000000000100000002000000
+        paramByteDataSize: 0000000000000000000000000000000000000000
     - name: "\u6D88\u5931"
       description: 
       colorIndex: 0

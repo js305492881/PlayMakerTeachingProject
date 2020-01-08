@@ -328,7 +328,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 0, y: 0, z: 20}
+          value: {x: 0, y: 0, z: 10}
         - useVariable: 1
           name: "\u524D\u65B9"
           tooltip: 
